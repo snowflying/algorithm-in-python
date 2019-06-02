@@ -1,26 +1,35 @@
 
 # Algorithm and data structures
 
-[![Stars](https://img.shields.io/github/stars/mbinary/algorithm-in-python.svg?label=Stars&style=social)](https://github.com/mbinary/algorithm-in-python/stargazers)
-[![Forks](https://img.shields.io/github/forks/mbinary/algorithm-in-python.svg?label=Fork&style=social)](https://github.com/mbinary/algorithm-in-python/network/members)
-[![repo-size](https://img.shields.io/github/repo-size/mbinary/algorithm-in-python.svg)]()
+[![Stars](https://img.shields.io/github/stars/mbinary/algorithm.svg?label=Stars&style=social)](https://github.com/mbinary/algorithm/stargazers)
+[![Forks](https://img.shields.io/github/forks/mbinary/algorithm.svg?label=Fork&style=social)](https://github.com/mbinary/algorithm/network/members)
+[![repo-size](https://img.shields.io/github/repo-size/mbinary/algorithm.svg)]()
 [![License](https://img.shields.io/badge/LICENSE-WTFPL-blue.svg)](LICENSE)
 [![Language](https://img.shields.io/badge/language-python3-orange.svg)]()
-<!-- [![Build](https://travis-ci.org/mbinary/PL0-compiler.svg?branch=master)]() -->
+[![codebeat badge](https://codebeat.co/badges/4ef725b5-405a-4390-a860-a86deefab3f8)](https://codebeat.co/projects/github-com-mbinary-algorithm-master)
 
 >Notes and codes for learning algorithm and data structures :smiley:
 
 Some pictures and ideas are from `<<Introduction to Algotithm>>`
 
-I use python 3.6+ and c/c++ to implement them.
-
-# Notice
-Currently, Github can't render latex math formulas.Thus,if you want to view the markodwn notes which contain latex math formulas, you can visit [my blog](https://mbinary.xyz)
+# Notes
+* [docs](./docs)
+    * [algorithm-general.md](./docs/algorithm-general.md)
+    * [b-tree.md](./docs/b-tree.md)
+    * [fib-heap.md](./docs/fib-heap.md)
+    * [graph.md](./docs/graph.md)
+    * [hashTable.md](./docs/hashTable.md)
+    * [red-black-tree.md](./docs/red-black-tree.md)
+    * [sort.md](./docs/sort.md)
+    * [src](./docs/src)
+    * [string-matching.md](./docs/string-matching.md)
+    * [tree.md](./docs/tree.md)
 
 # Index
 * [.](.)
     * [LICENSE](./LICENSE)
     * [README.md](./README.md)
+    * [_config.yml](./_config.yml)
     * [backtracking](./backtracking)
     * [dataStructure](./dataStructure)
         * [allOone](./dataStructure/allOone)
@@ -47,18 +56,6 @@ Currently, Github can't render latex math formulas.Thus,if you want to view the 
         * [winnerTree.py](./dataStructure/winnerTree.py)
     * [divideAndConquer](./divideAndConquer)
         * [min_distance_of_n_points.py](./divideAndConquer/min_distance_of_n_points.py)
-    * [docs](./docs)
-        * [README.md](./docs/README.md)
-        * [algorithm-general.md](./docs/algorithm-general.md)
-        * [b-tree.md](./docs/b-tree.md)
-        * [fib-heap.md](./docs/fib-heap.md)
-        * [graph.md](./docs/graph.md)
-        * [hashTable.md](./docs/hashTable.md)
-        * [red-black-tree.md](./docs/red-black-tree.md)
-        * [sort.md](./docs/sort.md)
-        * [src](./docs/src)
-        * [string-matching.md](./docs/string-matching.md)
-        * [tree.md](./docs/tree.md)
     * [dynamicProgramming](./dynamicProgramming)
         * [Vec2d.hs](./dynamicProgramming/Vec2d.hs)
         * [lcs.py](./dynamicProgramming/lcs.py)
@@ -69,14 +66,20 @@ Currently, Github can't render latex math formulas.Thus,if you want to view the 
         * [testVec2d.hs](./dynamicProgramming/testVec2d.hs)
         * [wildcard_matching.py](./dynamicProgramming/wildcard_matching.py)
     * [graph](./graph)
+        * [cloneGraph.cpp](./graph/cloneGraph.cpp)
         * [isBipartGraph.py](./graph/isBipartGraph.py)
     * [math](./math)
         * [README.md](./math/README.md)
         * [convertWeight.py](./math/convertWeight.py)
         * [fastPow.py](./math/fastPow.py)
+        * [fibonacci](./math/fibonacci)
         * [numberTheory](./math/numberTheory)
         * [numericalAnalysis](./math/numericalAnalysis)
         * [permute](./math/permute)
+    * [parser](./parser)
+        * [PL0-compiler](./parser/PL0-compiler)
+        * [calculator](./parser/calculator)
+        * [declarationParser](./parser/declarationParser)
     * [search](./search)
         * [8Astar.py](./search/8Astar.py)
         * [BFS_knight.hs](./search/BFS_knight.hs)
@@ -103,6 +106,7 @@ Currently, Github can't render latex math formulas.Thus,if you want to view the 
         * [sunday.py](./string/sunday.py)
         * [wildcard_matching.py](./string/wildcard_matching.py)
     * [utils](./utils)
+        * [codecogs.py](./utils/codecogs.py)
         * [config.py](./utils/config.py)
         * [genReadme.py](./utils/genReadme.py)
         * [headinfo.py](./utils/headinfo.py)
